@@ -15,6 +15,7 @@ namespace VSLaunchDemo.Controllers
 
         public ActionResult About()
         {
+            // This sets the About title
             ViewBag.Message = "Your application description page.";
 
             return View();
